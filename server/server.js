@@ -10,6 +10,11 @@ console.log(`WebSocket server running on ws://localhost:${PORT}`);
 wss.on("connection", (ws) => {
   console.log("A client connected");
 
+  ws.on("message", (rawMessage) => {
+    const command = JSON.parse(rawMessage);
+    console.log("Received command from browser:", command);
+  });
+
   ws.on("close", () => {
     console.log("A client disconnected");
   });
