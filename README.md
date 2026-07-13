@@ -17,7 +17,7 @@ Trotter is a personal engineering project combining mechanical design, embedded 
  
 ## Inspiration
  
-Trotter's electronics and general build approach (Lolin S2 Mini, MG90 servos, OLED display) are based on the open-source [Sesame Robot Project](https://github.com/dorianborian/sesame-robot) by Dorian Todd. The frame design, firmware, gait logic, and web dashboard in this repo are original work built from scratch.
+Trotter's electronics (Lolin S2 Mini, MG90 servos, OLED display) are based on the open-source [Sesame Robot Project](https://github.com/dorianborian/sesame-robot) by Dorian Todd. The frame design, firmware, gait logic, and web dashboard in this repo are original work built from scratch.
  
 ## Author
  
