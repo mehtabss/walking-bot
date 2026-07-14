@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trotter Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+  <header>
+    <h1>Trotter Dashboard</h1>
+    <p id="connectionStatus">Connecting...</p>
+  </header>
+
+  <main>
+    <section id="telemetryPanel">
+      <h2>Telemetry</h2>
+      <p>Battery: <span id="batteryValue">--</span> V</p>
+      <p>Uptime: <span id="uptimeValue">--</span> s</p>
+    </section>
+
+    <section id="controlPanel">
+      <h2>Controls</h2>
+      <button id="forwardButton">Forward</button>
+      <button id="stopButton">Stop</button>
+    </section>
+  </main>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>
